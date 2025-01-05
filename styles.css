@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    margin: 20px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .gift-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .gift {
+    width: 200px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+  }
+  
+  .gift img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .gift.highlight {
+    border: 4px solid red;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .fade-out {
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+  
+  .selected {
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .selected img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .highlight {
+    font-weight: bold; /* 加粗 */
+    font-size: 18px; /* 字體大小 */
+    color: #333; /* 字體顏色 */
+  }
+
+  /* 高亮的邊框樣式（僅用於動畫） */
+  .highlight-border {
+    border: 4px solid red;
+  }
+  
